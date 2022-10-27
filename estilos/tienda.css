@@ -1,0 +1,60 @@
+header{
+    background-color: white;
+}
+main{
+    background-color: #b7b5ff;
+}
+.logo{
+    height:80px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.navegador{
+    position:absolute;
+    left: 350px;
+    top: 60px;
+}
+a{
+    color: #b7b5ff;
+    margin: 20px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.tienda{
+    display: grid;
+    grid-template-rows: 1fr, 1fr,1fr;
+    grid-template-columns: 1fr,1fr,1fr; 
+    grid-template-areas: "caja1 caja2 caja3";
+    grid-row-gap: 20px; ;
+}
+.imgTienda{
+    margin: 20px;
+width: 400px;
+height: 600px;
+}
+.caja1{
+    grid-area: caja1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.caja2{
+        grid-area: caja2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;}
+.caja3{
+            grid-area: caja3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+.titulo{
+    border-style: ridge;
+}
